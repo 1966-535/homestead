@@ -37,6 +37,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     if File.exist? afterScriptPath then
         config.vm.provision "shell", path: afterScriptPath, privileged: false, keep_color: true
     end
+    
+    if File.exist? customizationScriptPath then
+        config.vm.provision "shell", path: customizationScriptPath, privileged: false, keep_color: true
+    end
 
     if Vagrant.has_plugin?('vagrant-hostsupdater')
         config.hostsupdater.aliases = settings['sites'].map { |site| site['map'] }
