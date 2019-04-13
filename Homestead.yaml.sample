@@ -30,7 +30,7 @@ sites:
     - map: jobfetcher.local
       to: /home/vagrant/sites/jobfetcher/public
       php: "5.6"
-
+      
 databases:
     - homestead
     - jobfetcher
