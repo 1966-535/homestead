@@ -35,7 +35,7 @@ databases:
     - homestead
     - jobfetcher
     - point
-    - mag
+    - maglsac
 
 variables:
     - key: APP_ENV
@@ -52,5 +52,5 @@ variables:
       value: 'false'
 
 # changed paths to work for windows, the default would work for linux without the need to change paths
-# add `192.168.10.10 site.local` to windows host file C:\Windows\System32\drivers\etc\hosts
-# install engine https://github.com/1966/engine
+# add `192.168.10.10 incapsol.local` to windows host file C:\Windows\System32\drivers\etc\hosts
+# install engine https://github.com/ /engine
