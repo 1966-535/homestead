@@ -30,18 +30,19 @@ sites:
     - map: jobfetcher.local
       to: /home/vagrant/sites/jobfetcher/public
       php: "5.6"
-      
+
 databases:
     - homestead
     - jobfetcher
     - point
+    - phplist
     - maglsac
 
 variables:
     - key: APP_ENV
       value: local
-    - key: EXEMPT_KEY
-      value: p7InVzZXJJZCI6obiImtlbnBsdW1iIn1
+    - key: APP_KEY
+      value: p7InVzZXJJsdfghbnBsdW1iIn1ezra
     - key: TOKEN_ALG
       value: HS256
     - key: DB_USER_N_PASS
