@@ -22,7 +22,10 @@ sites:
       to: /home/vagrant/sites/jobfetcher/public
       php: "5.6"
     - map: phplist.local
-      to: /home/vagrant/sites/phplist
+      to: /home/vagrant/sites/phplist/public_html/lists
+      php: "7.1"
+    - map: point.local
+      to: /home/vagrant/sites/cphalcon/public
       php: "7.0"
     - map: accounting.local
       to: /home/vagrant/sites/web/public
