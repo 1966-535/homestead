@@ -24,8 +24,13 @@ sites:
     - map: phplist.local
       to: /home/vagrant/sites/phplist/public_html/lists
       php: "7.1"
+    # - map: point.local
+      # to: /home/vagrant/sites/point/public
+      # php: "7.0"
     - map: point.local
-      to: /home/vagrant/sites/cphalcon/public
+      # uncomment this for phalcon default and comment the other to:
+      # to: /home/vagrant/sites/cphalcon/public #phalcon
+      to: /home/vagrant/sites/point/public
       php: "7.0"
     - map: accounting.local
       to: /home/vagrant/sites/web/public
