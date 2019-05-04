@@ -16,31 +16,28 @@ folders:
 sites:
     - map: engine.local
       to: /home/vagrant/sites/engine
-    - map: jenkins.local
-      to: /home/vagrant/sites/Jenkins
     - map: jobfetcher.local
-      to: /home/vagrant/sites/jobfetcher/public
-      php: "5.6"
-    - map: phplist.local
-      to: /home/vagrant/sites/phplist/public_html/lists
-      php: "7.1"
+      to: /home/vagrant/sites/jobfetcher
+      php: "7.0"
     - map: the1966.local
       to: /home/vagrant/sites/the1966
       php: "7.0"
     - map: accounting.local
       to: /home/vagrant/sites/web/public
       php: "7.2"
-    - map: magento.local
-      to: /home/vagrant/sites/magento2/pub/
-      php: "7.1.3"
+    # - map: jenkins.local
+    #   to: /home/vagrant/sites/Jenkins
+    # - map: phplist.local
+    #   to: /home/vagrant/sites/phplist/public_html/lists
+    #   php: "7.1"
+    # - map: magento.local
+    #   to: /home/vagrant/sites/magento2/pub/
+    #   php: "7.1.3"
 
 databases:
     - homestead
     - accounting
     - jobfetcher
-    - point
-    - phplist
-    - maglsac
 
 variables:
     - key: APP_ENV
@@ -55,6 +52,8 @@ variables:
       value: 'true'
     - key: FALSE_VAR
       value: 'false'
+
+backup: true
 
 minio: false
 # changed paths to work for windows, the default would work for linux without the need to change paths
