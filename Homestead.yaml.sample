@@ -25,6 +25,9 @@ sites:
     - map: accounting.local
       to: /home/vagrant/sites/web/public
       php: "7.2"
+    - map: phpbb.local
+      to: /home/vagrant/sites/phpbb
+      php: "7.2"
     # - map: jenkins.local
     #   to: /home/vagrant/sites/Jenkins
     # - map: phplist.local
