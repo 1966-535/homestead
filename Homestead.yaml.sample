@@ -28,6 +28,12 @@ sites:
     - map: phpbb.local
       to: /home/vagrant/sites/phpbb
       php: "7.2"
+    - map: smf.local
+      to: /home/vagrant/sites/smf
+      php: "7.2"
+    # - map: wp.local
+    #   to: /home/vagrant/sites/wp
+    #   php: "7.2"
     # - map: jenkins.local
     #   to: /home/vagrant/sites/Jenkins
     # - map: phplist.local
