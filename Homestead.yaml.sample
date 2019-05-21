@@ -34,6 +34,9 @@ sites:
     # - map: api.local
     #   to: /home/vagrant/sites/php-api
     #   php: "7.2"
+    # - map: smf.local
+    #   to: /home/vagrant/sites/smf
+    #   php: "7.2"
     # - map: wp.local
     #   to: /home/vagrant/sites/wp
     #   php: "7.2"
