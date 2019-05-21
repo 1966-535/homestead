@@ -28,9 +28,12 @@ sites:
     - map: phpbb.local
       to: /home/vagrant/sites/phpbb
       php: "7.2"
-    - map: smf.local
-      to: /home/vagrant/sites/smf
-      php: "7.2"
+    - map: classifieds.local
+      to: /home/vagrant/sites/classifieds
+      php: "5.6"
+    # - map: api.local
+    #   to: /home/vagrant/sites/php-api
+    #   php: "7.2"
     # - map: wp.local
     #   to: /home/vagrant/sites/wp
     #   php: "7.2"
